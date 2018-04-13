@@ -1,0 +1,27 @@
+CREATE TABLE Persona
+(
+    ID INT AUTO_INCREMENT,
+    Nombre VARCHAR(60),
+    Apellidos VARCHAR(60),
+    email VARCHAR(255),
+    Pass VARCHAR(255),
+    PRIMARY KEY(ID),
+    CONSTRAINT Persona_em UNIQUE(email)
+);
+
+CREATE TABLE Tarea
+(
+    ID INT AUTO_INCREMENT,
+    ID_persona INT,
+    Titulo VARCHAR(255),
+    Descripcion VARCHAR(255),
+    Fecha_ini TIMESTAMP,
+    Fecha_fin TIMESTAMP,
+    Tiempo_computado FLOAT,
+    Estado ENUM("Pendiente", "Finalizada")
+    PRIMARY KEY (ID),
+    CONSTRAINT Tarea_fk FOREIGN KEY(ID_persona) REFERENCES Persona(ID)
+);
+
+
+
