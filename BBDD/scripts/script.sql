@@ -25,14 +25,9 @@ CREATE TABLE Tarea (
     Tiempo_computado FLOAT,
     Estado ENUM("Pendiente","Finalizada") DEFAULT "Pendiente",
     PRIMARY KEY(ID),
-    CONSTRAINT Tarea_fk FOREIGN KEY(ID_persona) REFERENCES Persona(ID)
+    CONSTRAINT Tarea_fk FOREIGN KEY(ID_persona) REFERENCES Persona(ID) ON DELETE CASCADE
 ) ENGINE=INNODB;
 
 /* Check TABLE Tarea */
 DESCRIBE Tarea;
 SHOW TABLE STATUS WHERE Name = 'Tarea';   
-
-/* Testing relationship */
-INSERT INTO Persona (Nombre,Email,Pass) VALUES ("Test", "test@test.com", "tetspass");
-INSERT INTO Tarea (ID_persona,Titulo,Descripcion) VALUES (1,"TestTitulo", "TestDesc");
-
