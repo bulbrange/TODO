@@ -1,0 +1,23 @@
+package main;
+
+import javax.swing.JOptionPane;
+
+import controller.DBController;
+import view.MainFrame;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		MainFrame frame = new MainFrame();
+		frame.setVisible(true);
+		//TESTING GITHUB COMMITS
+		try {
+			DBController.getInstance().query("select * from test2");
+		} catch (Exception e) {
+		    JOptionPane.showMessageDialog(null, "Unable to connect to DB...", "DB info", 0);
+			e.printStackTrace();
+		};
+	}
+
+}

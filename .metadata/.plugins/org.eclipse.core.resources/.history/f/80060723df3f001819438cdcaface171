@@ -1,0 +1,19 @@
+package main;
+
+import javax.swing.JOptionPane;
+
+import controller.DBController;
+import view.MainFrame;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		MainFrame frame = new MainFrame();
+		frame.setVisible(true);
+		//TESTING GITHUB COMMITS
+		Integer i = new Integer(6);
+		System.out.println(i.toString());
+	}
+
+}

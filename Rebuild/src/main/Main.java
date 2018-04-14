@@ -1,5 +1,6 @@
 package main;
 
+
 import view.MainFrame;
 
 public class Main {
@@ -9,6 +10,7 @@ public class Main {
 		MainFrame frame = new MainFrame();
 		frame.setVisible(true);
 		//TESTING GITHUB COMMITS
+
 	}
 
 }

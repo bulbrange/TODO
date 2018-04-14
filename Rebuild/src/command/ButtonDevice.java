@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
+import controller.DBController;
 import controller.FormValidator;
 import view.MainFrame;
 
@@ -23,6 +24,10 @@ public class ButtonDevice implements Actions{
 			msgOK = "<html><body>Greetings ";
 			msgKO = "Access denied...";
 			title = "Login";
+			for(Object o : getData("select * from test2","col1")){
+				System.out.println(o.toString());
+			}
+			
 		}else if(MainFrame.mainView.isRegisterView()){
 			System.out.println("REGISTER BUTTON WORKING");
 			in = MainFrame.mainView.getRegister().getInputs();
@@ -84,5 +89,14 @@ public class ButtonDevice implements Actions{
 		MainFrame.mainView.setVisible(false);
 		MainFrame.taskView.setVisible(true);
 		MainFrame.taskView.repaint();
+	}
+	public ArrayList<Object> getData(String query,String columnName){
+		ArrayList<Object> data = new ArrayList<Object>();
+		try {
+			data = DBController.getInstance().query(query,columnName);
+		} catch (Exception e) {
+			e.printStackTrace();
+		};
+		return data;
 	}
 }

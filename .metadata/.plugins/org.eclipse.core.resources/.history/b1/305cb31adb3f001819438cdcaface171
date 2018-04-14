@@ -1,0 +1,21 @@
+package main;
+
+import controller.DBController;
+import view.MainFrame;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		MainFrame frame = new MainFrame();
+		frame.setVisible(true);
+		//TESTING GITHUB COMMITS
+		try {
+			DBController.getInstance().query("select * from test2");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		};
+	}
+
+}

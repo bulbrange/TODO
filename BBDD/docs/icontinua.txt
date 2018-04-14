@@ -2,3 +2,5 @@ BDDD HOST: esberfes.icons.es
 BBDD USER: icontinua
 BBDD NAME: icontinua
 BBDD PASS: *********
+
+https://phpadmin.gestiondecuenta.com/
