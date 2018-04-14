@@ -1,5 +1,7 @@
 package components;
 
+import java.awt.Color;
+import java.awt.Graphics;
 import java.util.ArrayList;
 
 import javax.swing.JPanel;
@@ -11,6 +13,7 @@ import buttons.ConfirmButton;
 import command.ButtonPattern;
 import listeners.ButtonListener;
 import view.MainFrame;
+import view.MainPanel;
 
 public class RegisterForm extends Form{
 
@@ -39,8 +42,6 @@ public class RegisterForm extends Form{
 		
 		//ADDING BUTTON LISTENERS
 		listener = new ButtonListener(buttons);
-		acept.addActionListener(listener);
-		cancel.addActionListener(listener);
 		
 		hideComponents();
 	}
@@ -62,6 +63,13 @@ public class RegisterForm extends Form{
 		for(JTextField f: inputs){
 			f.setVisible(true);
 		}
+	}
+	public void show(Graphics g){
+		g.drawImage(MainPanel.loginBackground, 0, 0, null);
+		g.setFont(MainPanel.titleFont);
+		g.setColor(Color.YELLOW);
+		g.drawString("Register", MainFrame.WIDTH / 3 + 60, 50);
+		this.draw(g);
 	}
 
 }

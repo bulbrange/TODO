@@ -1,6 +1,5 @@
 package view;
 
-import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Image;
@@ -18,10 +17,10 @@ public class MainPanel extends JPanel{
 	private static final long serialVersionUID = 1L;
 	
 	//VISUAL CONTENT
-	private Image background;
-	private Font titleFont = new Font("Eras Bold ITC",Font.BOLD,30);
+	public static Image loginBackground;
+	public static Font titleFont = new Font("Eras Bold ITC",Font.BOLD,30);
 	
-	//INPUTS
+	//VIEW COMPONENTS
 	private LoginForm login;
 	private RegisterForm register;
 	
@@ -29,10 +28,13 @@ public class MainPanel extends JPanel{
 	private boolean loginView;
 	private boolean registerView;
 	
+	//SINGLETON
+	public static MainPanel mainPanel;
+	
 	public MainPanel(){
 		setLayout(null);
 		try{
-			background = ImageIO.read(new File("img/mainbackground2.jpg"));
+			loginBackground = ImageIO.read(new File("img/mainbackground2.jpg"));
 		}catch(Exception e){
 			System.out.println("Imagen no encontrada");
 		}
@@ -46,25 +48,15 @@ public class MainPanel extends JPanel{
 	public void paintComponent(Graphics g){
 		super.paintComponent(g);
 		
-		if(loginView) drawMainView(g);
-		else if(registerView) drawRegisterView(g);
+		if(loginView) login.show(g);
+		else if(registerView) register.show(g);
 	}
 
-
-	private void drawMainView(Graphics g){
-		g.drawImage(background, 0, 0, null);
-		g.setFont(titleFont);
-		g.setColor(Color.YELLOW);
-		g.drawString("Login", MainFrame.WIDTH / 3 + 60, 50);
-		login.draw(g);
-	}
-	
-	private void drawRegisterView(Graphics g){
-		g.drawImage(background, 0, 0, null);
-		g.setFont(titleFont);
-		g.setColor(Color.YELLOW);
-		g.drawString("Register", MainFrame.WIDTH / 3 + 60, 50);
-		register.draw(g);
+	public static MainPanel getInstance(){
+		if(MainPanel.mainPanel == null){
+			MainPanel.mainPanel = new MainPanel();
+		}
+		return MainPanel.mainPanel;
 	}
 	
 	public void setViews(boolean mainView, boolean registerView){

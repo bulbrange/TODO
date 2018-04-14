@@ -1,13 +1,14 @@
 package view;
 
+import java.awt.CardLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Toolkit;
 
 import javax.swing.JFrame;
+import javax.swing.JPanel;
 
 import command.ButtonDevice;
-import controller.DBController;
 
 public class MainFrame extends JFrame {
 
@@ -16,12 +17,14 @@ public class MainFrame extends JFrame {
 	public static final int WIDTH = 800;
 	public static final int HEIGHT = 600;
 	
-	//VIEWS
-	public static MainPanel mainView;
-	public static TaskPanel taskView;
+	//VIEWS CONTAINER
+	public static JPanel container;
 	
 	//FUNCTIONALITY
 	public static ButtonDevice device;
+	
+	//SINGLETON
+	public static MainFrame frame;
 	
 	public MainFrame(){
 		
@@ -38,13 +41,31 @@ public class MainFrame extends JFrame {
 		device = new ButtonDevice();
 		
 		//VIEWS INIT
-		mainView = new MainPanel();
-		taskView = new TaskPanel();
-		//this.add(taskView);
-		this.add(mainView);
+		container = new JPanel(new CardLayout());
+
+		//taskView = new TaskPanel();
+		
+		//add();
+		container.add(MainPanel.getInstance());
+		container.add(TaskPanel.getInstance());
+		
+		
+		add(container);
 		
 		//ESTO ES UN TEST PARA GIT
 		
+	}
+	
+	public static void switchView(){
+		CardLayout cl = (CardLayout)container.getLayout();
+		cl.next(container);
+	}
+	public static MainFrame getInstance(){
+		
+		if(MainFrame.frame == null){
+			MainFrame.frame = new MainFrame();
+		}
+		return frame;
 	}
 
 }

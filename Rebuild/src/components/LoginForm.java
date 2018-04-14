@@ -1,5 +1,7 @@
 package components;
 
+import java.awt.Color;
+import java.awt.Graphics;
 import java.util.ArrayList;
 
 import javax.swing.JPanel;
@@ -10,18 +12,20 @@ import buttons.RegisterButton;
 import command.ButtonPattern;
 import listeners.ButtonListener;
 import view.MainFrame;
+import view.MainPanel;
 
-public class LoginForm  extends Form{
+public class LoginForm extends Form {
 
 	private ArrayList<ButtonPattern> buttons;
-	
+
 	private ConfirmButton login;
 	private RegisterButton register;
 
-	//TESTING USER STRINGS
+	// TESTING USER STRINGS
 	public static String user = "Jander";
 	public static String pass = "1234";
-	
+
+
 	public LoginForm(JPanel view) {
 		super(view);
 		// INIT BUTTONS
@@ -30,29 +34,38 @@ public class LoginForm  extends Form{
 		buttons = new ArrayList<ButtonPattern>();
 		buttons.add(login);
 		buttons.add(register);
-		
-		//ADDING BUTTON LISTENERS
-		listener = new ButtonListener(buttons);
-		login.addActionListener(listener);
-		register.addActionListener(listener);
-	}
 
-	public void hideComponents(){
-		for(ButtonPattern p : buttons){
+		// ADDING BUTTON LISTENERS
+		listener = new ButtonListener(buttons);
+
+	}
+	
+
+	public void hideComponents() {
+		for (ButtonPattern p : buttons) {
 			p.setVisible(false);
 		}
-		for(JTextField f: inputs){
+		for (JTextField f : inputs) {
 			f.setVisible(false);
 		}
 	}
 
-	
-	public void showComponents(){
-		for(ButtonPattern p : buttons){
+	public void showComponents() {
+		for (ButtonPattern p : buttons) {
 			p.setVisible(true);
 		}
-		for(JTextField f: inputs){
+		for (JTextField f : inputs) {
 			f.setVisible(true);
 		}
+	}
+
+	public void show(Graphics g) {
+
+		g.drawImage(MainPanel.loginBackground, 0, 0, null);
+		g.setFont(MainPanel.titleFont);
+		g.setColor(Color.YELLOW);
+		g.drawString("Login", MainFrame.WIDTH / 3 + 60, 50);
+		this.draw(g);
+
 	}
 }

@@ -8,47 +8,48 @@ import javax.swing.JTextField;
 import controller.DBController;
 import controller.FormValidator;
 import view.MainFrame;
+import view.MainPanel;
 
-public class ButtonDevice implements Actions{
+public class ButtonDevice implements Actions {
 
 	@Override
 	public void accept() {
 		ArrayList<JTextField> in = new ArrayList<JTextField>();
 		String msgOK = "";
 		String msgKO = "";
- 		String title = "";
-		
-		if(MainFrame.mainView.isLoginView()){
+		String title = "";
+
+		if (MainPanel.getInstance().isLoginView()) {
 			System.out.println("LOGGIN BUTTON WORKING");
-			in = MainFrame.mainView.getLogin().getInputs();
+			in = MainPanel.getInstance().getLogin().getInputs();
 			msgOK = "<html><body>Greetings ";
 			msgKO = "Access denied...";
 			title = "Login";
-			for(Object o : getData("select * from test2","col1")){
+			for (Object o : getData("select * from test2", "col1")) {
 				System.out.println(o.toString());
 			}
-			
-		}else if(MainFrame.mainView.isRegisterView()){
+
+		} else if (MainPanel.getInstance().isRegisterView()) {
 			System.out.println("REGISTER BUTTON WORKING");
-			in = MainFrame.mainView.getRegister().getInputs();
+			in = MainPanel.getInstance().getRegister().getInputs();
 			msgOK = "<html><body>---NEW USER---<br>";
 			msgKO = "Incomplete or wrong form...";
 			title = "Register form";
 		}
-		
-		for(JTextField f: in){
+
+		for (JTextField f : in) {
 			System.out.println(f.getText());
 		}
-		
+
 		FormValidator validator = new FormValidator(in);
-		if(validator.validate()){
+		if (validator.validate()) {
 			JOptionPane.showMessageDialog(null, msgOK + validator.toString(), title, 1);
-			if(MainFrame.mainView.isRegisterView()){
+			if (MainPanel.getInstance().isRegisterView()) {
 				resetComponents(false);
-			}else{
-				loginViewOff();
+			} else {
+				MainFrame.switchView();
 			}
-		}else{
+		} else {
 			JOptionPane.showMessageDialog(null, msgKO, title, 0);
 		}
 
@@ -56,10 +57,10 @@ public class ButtonDevice implements Actions{
 
 	@Override
 	public void cancel() {
-		if(MainFrame.mainView.isRegisterView()){
+		if (MainPanel.getInstance().isRegisterView()) {
 			resetComponents(false);
 		}
-		
+
 	}
 
 	@Override
@@ -67,36 +68,64 @@ public class ButtonDevice implements Actions{
 		resetComponents(true);
 
 	}
+	
+	@Override
+	public void createTask() {
+		System.out.println("CREATE TASK WORKING");
+		
+	}
+	@Override
+	public void deleteTask() {
+		System.out.println("DELETE TASK WORKING");
+		
+	}
 
-	private void resetComponents(boolean isLogin){
-		if(isLogin){
-			MainFrame.mainView.getLogin().hideComponents();
-			MainFrame.mainView.getLogin().cleanInput();
-			MainFrame.mainView.getRegister().showComponents();
-			MainFrame.mainView.setViews(false, true);
-			MainFrame.mainView.repaint();
-		}else{
-			MainFrame.mainView.getRegister().hideComponents();
-			MainFrame.mainView.getRegister().cleanInput();
-			MainFrame.mainView.getLogin().showComponents();
-			MainFrame.mainView.setViews(true, false);
-			MainFrame.mainView.repaint();
+	@Override
+	public void finishTask() {
+		System.out.println("FINISH TASK WORKING");
+		
+	}
+
+	@Override
+	public void modifyTask() {
+		System.out.println("MODIFY TASK WORKING");
+		
+	}
+	@Override
+	public void exitView() {
+		MainFrame.switchView();
+		
+	}
+	private void resetComponents(boolean isLogin) {
+		if (isLogin) {
+			MainPanel.getInstance().getLogin().hideComponents();
+			MainPanel.getInstance().getLogin().cleanInput();
+			MainPanel.getInstance().getRegister().showComponents();
+			MainPanel.getInstance().setViews(false, true);
+			MainPanel.getInstance().repaint();
+		} else {
+			MainPanel.getInstance().getRegister().hideComponents();
+			MainPanel.getInstance().getRegister().cleanInput();
+			MainPanel.getInstance().getLogin().showComponents();
+			MainPanel.getInstance().setViews(true, false);
+			MainPanel.getInstance().repaint();
 		}
 	}
-	private void loginViewOff(){
 
-		MainFrame.mainView.getLogin().cleanInput();
-		MainFrame.mainView.setVisible(false);
-		MainFrame.taskView.setVisible(true);
-		MainFrame.taskView.repaint();
-	}
-	public ArrayList<Object> getData(String query,String columnName){
+	public ArrayList<Object> getData(String query, String columnName) {
 		ArrayList<Object> data = new ArrayList<Object>();
 		try {
-			data = DBController.getInstance().query(query,columnName);
+			data = DBController.getInstance().query(query, columnName);
 		} catch (Exception e) {
 			e.printStackTrace();
-		};
+		}
+		;
 		return data;
 	}
+
+
+
+
+
+
 }

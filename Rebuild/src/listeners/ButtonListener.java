@@ -12,6 +12,10 @@ public class ButtonListener implements ActionListener{
 	
 	public ButtonListener(ArrayList<ButtonPattern> buttons){
 		this.buttons = buttons;
+		
+		for(ButtonPattern b: buttons){
+			b.addActionListener(this);
+		}
 	}
 	
 	@Override
