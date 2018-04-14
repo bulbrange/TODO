@@ -69,7 +69,7 @@ public class TaskPanel extends JPanel{
 		g.drawImage(background, 0, 0, null);
 		g.setColor(Color.YELLOW);
 		g.setFont(MainPanel.titleFont);
-		g.drawString("To Do", MainFrame.WIDTH / 2 - 80, 35);
+		g.drawString("TO DO", MainFrame.WIDTH / 2 - 100, 15);
 	}
 	
 	public static TaskPanel getInstance(){

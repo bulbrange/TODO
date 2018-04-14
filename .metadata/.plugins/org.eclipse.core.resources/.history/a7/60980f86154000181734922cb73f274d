@@ -1,6 +1,5 @@
 package view;
 
-import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Image;
 import java.io.File;
@@ -67,9 +66,6 @@ public class TaskPanel extends JPanel{
 	public void paintComponent(Graphics g){
 		super.paintComponent(g);
 		g.drawImage(background, 0, 0, null);
-		g.setColor(Color.YELLOW);
-		g.setFont(MainPanel.titleFont);
-		g.drawString("To Do", MainFrame.WIDTH / 2 - 80, 35);
 	}
 	
 	public static TaskPanel getInstance(){

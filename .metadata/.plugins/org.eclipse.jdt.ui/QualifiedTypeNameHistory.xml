@@ -21,4 +21,5 @@
 <fullyQualifiedTypeName name="command.ButtonPattern"/>
 <fullyQualifiedTypeName name="java.awt.Frame"/>
 <fullyQualifiedTypeName name="listeners.ButtonListener"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
 </qualifiedTypeNameHistroy>

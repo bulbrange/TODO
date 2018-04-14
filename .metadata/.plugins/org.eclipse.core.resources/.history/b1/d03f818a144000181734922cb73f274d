@@ -1,6 +1,5 @@
 package components;
 
-import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Image;
 import java.io.File;
@@ -46,10 +45,10 @@ public class TaskButtonPanel extends JPanel{
 			background = ImageIO.read(new File("img/buttonsbackground.jpg"));
 		} catch (IOException e) {System.out.println("IMAGE NOT FOUND @ BUTTON PANEL");}
 		
-		createTask = new CreateButton("Create",80,10,MainFrame.device,this);
-		deleteTask = new DeleteButton("Delete",240,10,MainFrame.device,this);
-		finishTask = new FinishButton("Finish",440,10,MainFrame.device,this);
-		modifyTask = new ModifyButton("Modify",600,10,MainFrame.device,this);
+		createTask = new CreateButton("Create Task",80,10,MainFrame.device,this);
+		deleteTask = new DeleteButton("Delete Task",240,10,MainFrame.device,this);
+		finishTask = new FinishButton("Finish Task",440,10,MainFrame.device,this);
+		modifyTask = new ModifyButton("Modify Task",600,10,MainFrame.device,this);
 		
 		buttons = new ArrayList<ButtonPattern>();
 		buttons.add(createTask);
@@ -70,7 +69,6 @@ public class TaskButtonPanel extends JPanel{
 	
 	public void paintComponent(Graphics g){
 		super.paintComponent(g);
-		
 		g.drawImage(background, 0, 0, null);
 	}
 }
