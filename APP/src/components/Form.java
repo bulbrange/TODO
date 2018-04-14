@@ -21,7 +21,7 @@ public abstract class Form {
 	protected static final int HEIGHT = 25;
 
 	// COMPONENTS
-	protected JTextField user;
+	protected JTextField email;
 	protected JPasswordField password;
 	protected ArrayList<JTextField> inputs;
 
@@ -39,9 +39,9 @@ public abstract class Form {
 
 		// INIT TEXT FIELDS
 		inputs = new ArrayList<JTextField>();
-		user = new JTextField();
+		email = new JTextField();
 		password = new JPasswordField();
-		configTextField(user, "User:", 0, 0);
+		configTextField(email, "E-Mail:", 0, 0);
 		configTextField(password, "Password:", 0, 50);
 
 
@@ -70,11 +70,11 @@ public abstract class Form {
 		}
 	}
 	public JTextField getUser() {
-		return user;
+		return email;
 	}
 
 	public void setUser(JTextField name) {
-		this.user = name;
+		this.email = name;
 	}
 
 	public JTextField getPassword() {

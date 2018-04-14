@@ -15,7 +15,7 @@ import view.MainFrame;
 public class RegisterForm extends Form{
 
 	private JPasswordField repassword;
-	private JTextField email;
+	private JTextField user;
 	
 	private ConfirmButton acept;
 	private CancelButton cancel;
@@ -26,9 +26,9 @@ public class RegisterForm extends Form{
 		// INIT TEXT FIELDS
 
 		repassword = new JPasswordField();
-		email = new JTextField();
+		user = new JTextField();
 		configTextField(repassword, "Re-Password:", 0, 100);
-		configTextField(email, "E-mail:", 0, 150);
+		configTextField(user, "User:", 0, 150);
 
 		// INIT BUTTONS
 		acept = new ConfirmButton("Acept", nameX, nameY * 3, MainFrame.device, view);

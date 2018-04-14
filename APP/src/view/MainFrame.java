@@ -40,9 +40,11 @@ public class MainFrame extends JFrame {
 		//VIEWS INIT
 		mainView = new MainPanel();
 		taskView = new TaskPanel();
-		this.add(taskView);
-		//this.add(mainView);
-
+		//this.add(taskView);
+		this.add(mainView);
+		
+		//ESTO ES UN TEST PARA GIT
+		
 	}
 
 }
