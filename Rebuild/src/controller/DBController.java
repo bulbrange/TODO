@@ -45,7 +45,7 @@ public class DBController {
 			
 		    conn =
 		       DriverManager.getConnection("jdbc:mysql://esberfes.icons.es/icontinua?" +
-		                                   "user=icontinua&password=icontinua");
+		                                   "user=icontinua&password=********");
 
 		    stmt = conn.createStatement();
 		    rs = stmt.executeQuery(query);
