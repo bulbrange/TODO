@@ -34,7 +34,7 @@
           <target>1.8</target>
            <archive>
             <manifest>
-              <mainClass>src.main.Main</mainClass>
+              <mainClass>main.Main</mainClass>
             </manifest>
           </archive>
         </configuration>
