@@ -2,13 +2,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Rebuild</groupId>
   <artifactId>Rebuild</artifactId>
-          <configuration>
-          <archive>
-            <manifest>
-              <addClasspath>true</addClasspath>
-            </manifest>
-          </archive>
-        </configuration>
   <version>0.0.1-SNAPSHOT</version>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -39,6 +32,11 @@
         <configuration>
           <source>1.8</source>
           <target>1.8</target>
+           <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+            </manifest>
+          </archive>
         </configuration>
       </plugin>
     </plugins>
