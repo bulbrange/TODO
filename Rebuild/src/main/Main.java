@@ -9,7 +9,7 @@ public class Main {
 		System.out.println("TESTING JENKINS");
 		MainFrame.getInstance().setVisible(true);;
 		
-		//TESTING GITHUB COMMITS
+
 
 	}
 
