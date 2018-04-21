@@ -4,7 +4,7 @@ package main;
 import view.MainFrame;
 
 public class Main {
-
+	//JANDE MORE NAWERRRRR
 	//COMERME LOS HUEVOS
 	
 	public static void main(String[] args) {

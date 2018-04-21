@@ -1,5 +1,10 @@
-/target/
 
-
-.metadata
-.recommenders
+.metadata/
+.recommenders/
+.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs
+.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+.metadata/.plugins/org.eclipse.core.resources/.projects/Rebuild/.indexes/e4/b9/history.index
+.metadata/.plugins/org.eclipse.core.resources/.projects/Rebuild/.indexes/e4/b9/history.index
+.metadata/.plugins/org.eclipse.core.resources/.projects/Rebuild/.markers
