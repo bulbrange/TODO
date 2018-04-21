@@ -21,12 +21,15 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/JaGUaRs/Desktop/bulrangegit/TODO/Rebuild/libs/mysql-connector-java-5.1.46.jar"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+<<<<<<< HEAD
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+=======
+	<classpathentry kind="lib" path="/home/jaime/Escritorio/bulbrange/TODO/Rebuild/libs/mysql-connector-java-5.1.46.jar"/>
+>>>>>>> 787b45bcc3a965cfde12462e221125777442418b
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
