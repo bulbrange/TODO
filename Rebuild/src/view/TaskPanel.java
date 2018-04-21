@@ -42,7 +42,7 @@ public class TaskPanel extends JPanel{
 		
 		try {
 			background = ImageIO.read(new File("img/taskbackground.jpg"));
-		} catch (IOException e) {System.out.println("Image not found @ TASK PANEL");}
+	 	} catch (IOException e) {System.out.println("Image not found @ TASK PANEL");}
 		
 		setLayout(null);
 		//setVisible(false);
