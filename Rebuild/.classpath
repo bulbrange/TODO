@@ -26,6 +26,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/pangea/bulbrangegit/TODO/Rebuild/libs/mysql-connector-java-5.1.46.jar"/>
+	<classpathentry kind="lib" path="/home/jaime/Escritorio/bulbrange/TODO/Rebuild/libs/mysql-connector-java-5.1.46.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
