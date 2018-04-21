@@ -1,0 +1,22 @@
+import static org.junit.Assert.*;
+
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+
+import org.junit.Test;
+
+public class ControllerTest {
+
+	@Test
+	public void test() {
+		
+		JPasswordField repass = new JPasswordField();
+		repass.setName("Re-Password:");
+		repass.setText("1234");
+		JPasswordField pass = new JPasswordField();
+		pass.setName("Password:");
+		pass.setText("1234");
+	}
+
+	
+}

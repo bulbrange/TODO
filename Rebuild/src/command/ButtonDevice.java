@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
+import components.Task;
 import controller.DBController;
 import controller.FormValidator;
 import view.MainFrame;
@@ -121,6 +122,12 @@ public class ButtonDevice implements Actions {
 		}
 		;
 		return data;
+	}
+
+	@Override
+	public void displayTask(Task task) {
+		System.out.println(task.getTitle());
+		
 	}
 
 

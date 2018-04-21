@@ -1,5 +1,7 @@
 package command;
 
+import components.Task;
+
 public interface Actions {
 
 	public void accept();
@@ -17,4 +19,6 @@ public interface Actions {
 	public void modifyTask();
 	
 	public void exitView();
+	
+	public void displayTask(Task task);
 }

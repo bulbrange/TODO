@@ -544,3 +544,149 @@
 2018-04-18 13:47:14,165 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2018-04-18 13:47:14,169 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2018-04-18 13:47:14,170 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-18 13:52:16,995 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:52:17,025 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-18 13:52:17,035 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-18 13:52:17,039 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-18 13:52:17,042 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:52:17,043 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-18 13:54:03,964 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:54:03,982 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-18 13:54:03,989 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-18 13:54:03,992 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-18 13:54:03,996 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:54:03,997 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-18 13:54:29,300 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:54:29,315 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-18 13:54:29,324 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-18 13:54:29,327 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-18 13:54:29,330 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:54:29,332 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-18 13:54:54,048 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:54:54,059 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-18 13:54:54,065 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-18 13:54:54,067 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-18 13:54:54,069 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:54:54,070 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-18 13:55:54,361 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:55:54,372 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-18 13:55:54,378 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-18 13:55:54,381 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-18 13:55:54,383 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:55:54,384 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-18 13:56:15,069 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:56:15,081 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-18 13:56:15,087 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-18 13:56:15,089 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-18 13:56:15,092 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:56:15,093 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-18 13:57:02,830 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:57:02,846 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-18 13:57:02,854 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-18 13:57:02,857 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-18 13:57:02,860 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:57:02,862 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-18 13:57:09,215 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:57:09,224 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-18 13:57:09,230 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-18 13:57:09,232 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-18 13:57:09,234 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:57:09,235 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-18 13:57:37,130 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:57:37,140 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-18 13:57:37,146 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-18 13:57:37,148 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-18 13:57:37,150 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:57:37,151 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-18 13:57:46,533 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:57:46,543 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-18 13:57:46,551 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-18 13:57:46,554 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-18 13:57:46,557 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:57:46,558 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-18 13:58:19,550 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:58:19,559 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-18 13:58:19,565 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-18 13:58:19,567 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-18 13:58:19,569 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:58:19,570 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-18 13:58:27,810 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:58:27,819 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-18 13:58:27,825 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-18 13:58:27,827 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-18 13:58:27,829 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 13:58:27,830 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-18 14:14:18,924 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 14:14:18,940 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-18 14:14:18,946 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-18 14:14:18,949 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-18 14:14:18,951 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 14:14:18,952 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-18 14:16:24,363 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 14:16:24,373 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-18 14:16:24,378 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-18 14:16:24,381 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-18 14:16:24,383 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-18 14:16:24,385 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-21 11:40:26,767 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-04-21 11:58:58,537 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-21 11:58:58,551 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-21 11:58:58,574 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-21 11:58:58,595 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-21 11:58:58,609 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-21 11:58:58,610 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-21 12:01:16,712 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-21 12:01:16,748 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-21 12:01:16,756 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-21 12:01:16,758 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-21 12:01:16,761 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-21 12:01:16,762 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-21 12:02:23,037 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-21 12:02:23,048 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-21 12:02:23,054 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-21 12:02:23,059 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-21 12:02:23,063 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-21 12:02:23,066 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-21 12:02:35,005 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-21 12:02:35,019 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-21 12:02:35,029 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-21 12:02:35,033 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-21 12:02:35,036 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-21 12:02:35,038 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-21 12:02:50,255 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-21 12:02:50,267 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-21 12:02:50,275 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-21 12:02:50,278 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-21 12:02:50,281 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-21 12:02:50,283 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-21 12:04:24,340 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-21 12:04:24,354 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-21 12:04:24,361 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-21 12:04:24,364 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-21 12:04:24,367 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-21 12:04:24,369 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-21 12:05:28,020 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-21 12:05:28,033 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-21 12:05:28,039 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-21 12:05:28,041 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-21 12:05:28,044 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-21 12:05:28,045 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-21 12:05:47,768 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-21 12:05:47,783 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-21 12:05:47,793 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-21 12:05:47,796 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-21 12:05:47,801 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-21 12:05:47,802 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-21 12:16:41,386 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-21 12:16:41,403 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-21 12:16:41,411 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-21 12:16:41,413 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-21 12:16:41,416 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-21 12:16:41,417 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
+2018-04-21 12:20:03,157 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-04-21 12:20:06,384 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-21 12:20:06,398 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
+2018-04-21 12:20:06,417 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-04-21 12:20:06,420 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-21 12:20:06,425 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-21 12:20:06,426 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JaGUaRs\Desktop\bulrangegit\TODO\Rebuild\src\test\resources
