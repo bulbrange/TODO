@@ -1,9 +1,6 @@
 /target/
-<<<<<<< HEAD
+
 
 .classpath
+.settings
 Diagram.ucls
-=======
-.classpath
-.Diagram.ucls
->>>>>>> 787b45bcc3a965cfde12462e221125777442418b
