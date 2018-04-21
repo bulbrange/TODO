@@ -14,7 +14,8 @@ public class FormValidator {
 		
 		this.inputs = inputs;
 	}
-		
+	
+	
 	public boolean validate(){
 		
 		for(JTextField f: inputs){

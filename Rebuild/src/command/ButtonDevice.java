@@ -16,7 +16,7 @@ public class ButtonDevice implements Actions {
 	public void accept() {
 		ArrayList<JTextField> in = new ArrayList<JTextField>();
 		String msgOK = "";
- 		String msgKO = "";
+		String msgKO = "";
 		String title = "";
 
 		if (MainPanel.getInstance().isLoginView()) {
