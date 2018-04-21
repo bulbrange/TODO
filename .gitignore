@@ -1,4 +1,6 @@
-
+/.metadata/
+.metadata
+.metadata/*
 .metadata/
 .recommenders/
 .metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
@@ -8,3 +10,9 @@
 .metadata/.plugins/org.eclipse.core.resources/.projects/Rebuild/.indexes/e4/b9/history.index
 .metadata/.plugins/org.eclipse.core.resources/.projects/Rebuild/.indexes/e4/b9/history.index
 .metadata/.plugins/org.eclipse.core.resources/.projects/Rebuild/.markers
+Rebuild/.classpath
+Rebuild/.classpath
+Rebuild/.classpath
+Rebuild/.classpath
+Rebuild/.classpath
+.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties
